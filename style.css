@@ -1,0 +1,43 @@
+
+:root{
+    --box-shadow:0 5px rgba(33, 38, 38, 0.082),
+    6px 4px 4px rgba(36, 33, 33, 0.24);
+}
+html,body{
+    background-color: antiquewhite;
+    height:100%;
+    width:100%;
+    font-family:'Roboto',sans-serif;
+    /* font-family:'Ubuntu',sans-serif; */
+}
+.heading{
+    text-align: center;
+}
+.container{
+    /* background-color: aqua; */
+    align-items: center;
+}
+.btn{
+    width: 5px;
+    padding: 10px 15px 5px 7px ;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin:1px 3px ;
+    cursor:pointer;
+}
+.row{
+    margin:2px 0;
+    /* background-color: rgb(95, 88, 93); */  
+}
+/* .input{
+    max-width: 137px;
+    border: 2px solid black;
+    border-radius: 10px;
+}  */
+.btn:hover{
+    box-shadow: var(--box-shadow);
+}
+.con{
+    background-color: aqua;
+}
+
